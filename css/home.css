@@ -1,0 +1,61 @@
+div.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-color: #3e5b99;
+}
+
+div.top div#logo {
+  font-size: 26px;
+}
+
+div.top a {
+  color: white;
+  text-decoration: none;
+}
+
+div.content {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+}
+button.ok {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #5d994a;
+  cursor: pointer;
+}
+
+div.container{
+  height: auto; 
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+}
+.postbox {
+  margin-top: 2rem;
+  width: 40rem;
+}

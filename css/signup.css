@@ -1,0 +1,7 @@
+form{
+  width: 40%;
+}
+h1, p{
+  display: grid;
+  justify-items: center;
+}

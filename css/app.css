@@ -1,0 +1,86 @@
+*{
+  margin: 0px; padding: 0px; box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #edf0f5;
+}
+
+div.container{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  width: 100vw;
+  height: 100vh; 
+}
+
+div.top{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  background-color: #3e5b99;
+}
+
+div.content{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+}
+button.ok{
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #5d994a;
+  cursor: pointer;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+
+.listItem{
+  background-color: white;
+  padding: 1rem;
+  width: 40rem;
+}
+.postUsername{
+  font-weight: 700;
+}
+.postDate{
+  font-size: small;
+}
+
+.editable{
+  border: 1px lightgray solid;
+  background-color: #edf0f5;
+}
+
+.postImg{
+  max-width: 38rem;
+}
